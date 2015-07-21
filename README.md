@@ -15,6 +15,7 @@ Into
 ### TODO
 
 * Add support for more websites
+* Update the templating for sentances that make sense
 * More title templates
 * More answers
 * More clickbait
