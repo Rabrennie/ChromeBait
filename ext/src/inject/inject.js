@@ -38,33 +38,52 @@ function generateTitle ()
 	return tempTitle;
 }
 
-
-for (var i = 0; i < buzzClasses.length; i++) 
+function changeTitles()
 {
-	$("."+buzzClasses[i]).each(function(x){
-		if ($(this).attr("rel:gt_act") == "post/title") 
+	if (true) 
+	{
+		for (var i = 0; i < buzzClasses.length; i++) 
 		{
-			$(this).html(generateTitle());
+			$("."+buzzClasses[i]).each(function(x){
+				if ($(this).attr("rel:gt_act") == "post/title" && $(this).attr("baited")!="true") 
+				{
+					$(this).html(generateTitle());
+					$(this).attr("baited","true");
+				};
+
+			});
 		};
 
-	});
-};
+		for (var i = 0; i < buzzIds.length; i++) 
+		{
 
-for (var i = 0; i < buzzIds.length; i++) 
-{
-	$("#"+buzzIds[i]).html(generateTitle());
-};
+			$("#"+buzzIds[i]).html(generateTitle());
+		};
 
-for (var i = 0; i < crackClasses.length; i++) 
-{
-	$("."+crackClasses[i]).each(function(x){
-			$(this).html(generateTitle());
-	});
-};
+		for (var i = 0; i < crackClasses.length; i++) 
+		{
+			$("."+crackClasses[i]).each(function(x)
+			{
+					if ($(this).attr("baited")!="true") 
+					{
+						$(this).html(generateTitle());
+						$(this).attr("baited","true");
+					};
+			});
+		};
 
-for (var i = 0; i < gawkClasses.length; i++) 
-{
-	$("."+gawkClasses[i]).each(function(x){
-			$(this).html(generateTitle());
-	});
-};
+		for (var i = 0; i < gawkClasses.length; i++) 
+		{
+			$("."+gawkClasses[i]).each(function(x)
+			{
+					if ($(this).attr("baited")!="true") 
+					{
+						$(this).html(generateTitle());
+						$(this).attr("baited","true");
+					};
+			});
+		};
+	};
+}
+changeTitles();
+window.setInterval(changeTitles, 5000);
