@@ -1,5 +1,3 @@
-console.log($(".lede__link").attr("rel:gt_act"))
-
 
 function countInstances(string, word) 
 {
@@ -34,18 +32,33 @@ function generateTitle ()
 	return tempTitle;
 }
 
-$(".lede__link").each(function(i){
-	if ($(this).attr("rel:gt_act") == "post/title") 
-	{
-		$(this).html(generateTitle());
-	};
 
-});
+for (var i = 0; i < buzzClasses.length; i++) 
+{
+	$("."+buzzClasses[i]).each(function(x){
+		if ($(this).attr("rel:gt_act") == "post/title") 
+		{
+			$(this).html(generateTitle());
+		};
 
-$(".splash__title-text").each(function(i){
+	});
+};
 
-	$(this).html(generateTitle());
+for (var i = 0; i < buzzIds.length; i++) 
+{
+	$("#"+buzzIds[i]).html(generateTitle());
+};
 
-});
+for (var i = 0; i < crackClasses.length; i++) 
+{
+	$("."+crackClasses[i]).each(function(x){
+			$(this).html(generateTitle());
+	});
+};
 
-$("#post-title").html(generateTitle());
+for (var i = 0; i < gawkClasses.length; i++) 
+{
+	$("."+gawkClasses[i]).each(function(x){
+			$(this).html(generateTitle());
+	});
+};

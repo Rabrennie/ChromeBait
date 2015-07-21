@@ -23,11 +23,14 @@
   "content_scripts": [
     {
       "matches": [
-        "http://www.buzzfeed.com/*"
+        "http://www.buzzfeed.com/*", 
+        "http://*.gawker.com/*",
+        "http://www.cracked.com/*"
       ],
       "js": [
         "src/inject/answers.js",
         "src/inject/titles.js",
+        "src/inject/titleClasses.js",
         "js/jquery/jquery.min.js",
         "src/inject/inject.js"
 
