@@ -1,0 +1,1 @@
+titles=["$num $answer Every $answer Needs To Know","The Average Day Of $answer","$answer Who Clearly Had Too Much To Drink","Can You Guess The $answer Day Job", "$num Reasons Being $answer Is The Goddamn Best", "Everything You Want To Know About $answer", "What Kind Of $answer Are You?"]
