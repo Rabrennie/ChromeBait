@@ -1,3 +1,9 @@
+String.prototype.jadenify = function() 
+{
+	//from http://stackoverflow.com/a/7592235
+    return this.replace(/(?:^|\s)\S/g, function(a) { return a.toUpperCase(); });
+};
+
 
 function countInstances(string, word) 
 {
@@ -8,7 +14,7 @@ function countInstances(string, word)
 function randomAnswer()
 {
 	var tempAnswer = answers[Math.floor(Math.random()*answers.length)];
-	return tempAnswer;
+	return tempAnswer.jadenify();
 }
 
 function generateTitle ()

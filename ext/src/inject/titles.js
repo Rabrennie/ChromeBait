@@ -1,4 +1,4 @@
-titles=["$num $answer Every $answer Needs To Know",
+titles=["$num Things Every $answer Needs To Know",
 		"The Average Day Of $answer",
 		"$answer Who Clearly Had Too Much To Drink",
 		"Can You Guess The $answer Day Job",
@@ -12,3 +12,4 @@ titles=["$num $answer Every $answer Needs To Know",
 		"$num Questions $answer Should Really Answer",
 		"Here's What $answer From $answer Looks Like Now",
 		"$num Things That No One Tells You About $answer"]
+		
