@@ -11,5 +11,16 @@ titles=["$num Things Every $answer Needs To Know",
 		"$num Things Only People Who $answer Will Understand",
 		"$num Questions $answer Should Really Answer",
 		"Here's What $answer From $answer Looks Like Now",
-		"$num Things That No One Tells You About $answer"]
+		"$num Things That No One Tells You About $answer",
+		"$num $answer You Would Never Guess Are Actually Black",
+		"The $num Worst $answer Of All Time...#6 Will Make You Cringe",
+		"$num $answer Who Are Aging Terribly",
+		"Election Candidate Wants $answer Banned",
+		"Hurry Before $answer is Banned",
+		"$num $answer That Actually Exist In Real Life",
+		"Looks Like A $answer, But One $answer Changes Everything",
+		"One Weird Trick To Remove $answer Without A Doctor",
+		"What $answer Character Are You?",
+		"$num $answer To Do Before You Die",
+		"An Extremely Brilliant Way To $answer"]
 		
