@@ -1,1 +1,14 @@
-titles=["$num $answer Every $answer Needs To Know","The Average Day Of $answer","$answer Who Clearly Had Too Much To Drink","Can You Guess The $answer Day Job", "$num Reasons Being $answer Is The Goddamn Best", "Everything You Want To Know About $answer", "What Kind Of $answer Are You?"]
+titles=["$num $answer Every $answer Needs To Know",
+		"The Average Day Of $answer",
+		"$answer Who Clearly Had Too Much To Drink",
+		"Can You Guess The $answer Day Job",
+		"$num Reasons Being $answer Is The Goddamn Best", 
+		"Everything You Want To Know About $answer", 
+		"What Kind Of $answer Are You?",
+		"What Should You Name Your $answer",
+		"$num Things That Summarise What It's Like $answer",
+		"Create Your Own $answer",
+		"$num Things Only People Who $answer Will Understand",
+		"$num Questions $answer Should Really Answer",
+		"Here's What $answer From $answer Looks Like Now",
+		"$num Things That No One Tells You About $answer"]
