@@ -15,7 +15,6 @@ Into
 ### TODO
 
 * Add support for more websites
-* Make a general function for classes
 * More title templates
 * More answers
 * More clickbait
