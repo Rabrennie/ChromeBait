@@ -10,12 +10,12 @@
     "128": "icons/icon128.png"
   },
   "default_locale": "en",
-  "background": {
-    "scripts": [
-      "src/bg/background.js"
-    ],
-    "persistent": false
-  },
+  // "background": {
+  //   "scripts": [
+  //     "src/bg/background.js"
+  //   ],
+  //   "persistent": false
+  // },
   "permissions": [
     "http://*/*",
     "https://*/*"
