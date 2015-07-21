@@ -1,6 +1,8 @@
 # ChromeBait
 An open source chrome extension that turns the clickbait to 11.
 
+### Example
+
 Turns
 
 ![Original Page](http://i.imgur.com/7pVEqpE.png)
@@ -8,3 +10,12 @@ Turns
 Into
 
 ![Edited Page](http://i.imgur.com/jb8Q5rS.png)
+
+
+### TODO
+
+* Add support for more websites
+* Make a general function for classes
+* More title templates
+* More answers
+* More clickbait
