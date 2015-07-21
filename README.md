@@ -7,4 +7,4 @@ Turns
 
 Into
 
-![Edited Page](http://i.imgur.com/isnbAPx.png)
+![Edited Page](http://i.imgur.com/jb8Q5rS.png)
