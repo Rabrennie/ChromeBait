@@ -11,6 +11,10 @@ Into
 
 ![Edited Page](http://i.imgur.com/jb8Q5rS.png)
 
+### Supported Sites
+* http://www.buzzfeed.com/
+* http://gawker.com/
+* http://www.cracked.com/
 
 ### TODO
 
@@ -19,3 +23,4 @@ Into
 * More title templates
 * More answers
 * More clickbait
+
