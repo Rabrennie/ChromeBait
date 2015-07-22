@@ -11,8 +11,8 @@ Into
 
 ![Edited Page](http://i.imgur.com/jb8Q5rS.png)
 ### Installation
-Enable chrome extensions developer mode. [Tutorial] (https://developer.chrome.com/extensions/faq#faq-dev-01)
-Click load unpacked extension and choose the ext folder.
+*Enable chrome extensions developer mode. [Tutorial] (https://developer.chrome.com/extensions/faq#faq-dev-01)
+*Click load unpacked extension and choose the ext folder.
 
 ### Supported Sites
 * http://www.buzzfeed.com/
